@@ -1,14 +1,13 @@
-package org.recursion;
-
-import org.recursion.reverseArray.ReversedArray;
+package org.recursion.reverseArray;
 
 public class App
 {
     public static void main( String[] args )
-    {
+    {   // reversed array code
         int arr[] = {1, 4, 5, 7, 8};
         int n = arr.length;
         int i = 0;
+
 
         System.out.println("Original array:");
         printArray(arr);
@@ -18,6 +17,8 @@ public class App
 
         System.out.println("Reversed array:");
         printArray(arr);
+
+
     }
 
     public static void printArray(int[] arr){
